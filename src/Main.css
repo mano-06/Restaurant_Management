@@ -1,0 +1,21 @@
+.container1{
+    display: flex;
+}
+.container1 h1{
+    font-size: 20pt extra bold;
+    flex:1;
+}
+.container1 button{
+    margin-right: 20px;
+    align-self: center;
+    border-radius: 5px;
+    background-color: #f4ce14;
+}
+.container2{
+    display: flex;
+}
+.container2 nav{
+    margin: 20px;
+    padding: 10px;
+    background-color: #edefee;
+}

@@ -1,0 +1,19 @@
+.Nav{
+    display:flex;
+    justify-content: center ;
+}
+img{
+    margin: 20px;
+}
+a{
+    padding: 0.5%;
+    color: #333333;
+    text-decoration: none;
+    margin: 1%;
+}
+a:hover{
+    background-color: #333333;
+    border-color: #333333;
+    text-shadow: #000000;
+    color: black;
+}
