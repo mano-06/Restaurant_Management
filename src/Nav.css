@@ -1,19 +1,20 @@
-.Nav{
-    display:flex;
-    justify-content: center ;
+.Nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
 }
-img{
-    margin: 20px;
+li {
+float: left;
 }
-a{
-    padding: 0.5%;
-    color: #333333;
-    text-decoration: none;
-    margin: 1%;
+.link {
+display: block;
+color: #333333;
+text-align: center;
+padding: 16px;
+text-decoration: none;
 }
-a:hover{
-    background-color: #333333;
-    border-color: #333333;
-    text-shadow: #000000;
-    color: black;
+.link:hover {
+background-color: #edefee;
 }

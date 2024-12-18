@@ -1,3 +1,32 @@
+/* Header */
+.Header{
+    background-color: #495e57;
+    height: 300px;
+    padding: 30px;
+}
+.Header h1{
+    font-family: markazi;
+    font-size: medium 64pt;
+    color: #f4ce14;
+}
+.Header h2{
+    font-family: karla;
+    font-size: regular 40pt;
+    color: #edefee;
+}
+.Header p{
+    color: #edefee;
+}
+.Header button{
+    border-radius: 10px;
+    background-color: #f4cb00;
+}
+.Header button:hover{
+    background-color: #ffcc00;
+    border-width: 3px;
+}
+
+/* Main */
 .container1{
     display: flex;
 }
@@ -28,3 +57,6 @@
     background-color: #e6e6e6;
     transition: 0.5s;
 }
+
+/* Footer */
+
