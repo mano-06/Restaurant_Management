@@ -4,23 +4,28 @@
     height: 300px;
     padding: 30px;
 }
+
 .Header h1{
     font-family: markazi;
     font-size: medium 64pt;
     color: #f4ce14;
 }
+
 .Header h2{
     font-family: karla;
     font-size: regular 40pt;
     color: #edefee;
 }
+
 .Header p{
     color: #edefee;
 }
+
 .Header button{
     border-radius: 10px;
     background-color: #f4cb00;
 }
+
 .Header button:hover{
     background-color: #ffcc00;
     border-width: 3px;
@@ -30,29 +35,35 @@
 .container1{
     display: flex;
 }
+
 .container1 h1{
     font-size: 20pt extra bold;
     flex:1;
 }
+
 .container1 button{
     margin-right: 20px;
     align-self: center;
     border-radius: 10px;
     background-color: #ffd500;
 }
+
 .container1 button:hover{
     background-color: #ffcc00;
     border-width: 3px;
 }
+
 .container2{
     display: flex;
 }
+
 .container2 section{
     border-radius: 5px;
     margin: 20px;
     padding: 10px;
     background-color: #edefee;
 }
+
 .container2 section:hover{
     background-color: #e6e6e6;
     transition: 0.5s;

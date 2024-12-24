@@ -1,3 +1,6 @@
+import './Login.css'
+
+
 export default function Login(){
     return(
         <form type="submit">
@@ -8,7 +11,7 @@ export default function Login(){
             <br />
             <label>
                 Password  :
-                <input type="password" />
+                <input type="password"/>
             </label>
         </form>
     );
