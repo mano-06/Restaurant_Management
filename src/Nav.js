@@ -3,11 +3,11 @@ import './Nav.css';
 const Nav = () => {
   return (
     <>
-      <nav>
-        <ul className="Nav">
-            <li className="image">
-                <img src=".\images\Yellow_title.png" alt="img"></img>
-            </li>
+      <nav className="Nav">
+        <div className="logo">
+            <img src="src\images\Yellow_title.png" alt="Little Lemon"></img>
+        </div>
+        <ul>
             <li>
                 <Link className="link" to="/">Home</Link>
             </li>
@@ -23,10 +23,10 @@ const Nav = () => {
             <li>
                 <Link className="link" to="/Orderonline">Order Online</Link>
             </li>
-            <li>
-                <Link className="link" to="/Login">Login</Link>
-            </li>
         </ul>
+        <div className="Login">
+            <Link className="link" to="/Login"><img src="src\images\Login.png"/></Link>
+        </div>
       </nav>
 
       <Outlet />

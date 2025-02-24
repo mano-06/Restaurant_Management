@@ -22,14 +22,16 @@
 }
 
 .Header button{
-    border-radius: 10px;
+    padding: 2px;
+    border-radius: 5px;
+    border: 2px solid #ffcc00;
     background-color: #f4cb00;
 }
 
 .Header button:hover{
     background-color: #ffcc00;
-    border-width: 3px;
-}
+    padding: 3px;
+    transition: 0.1s;}
 
 /* Main */
 .container1{
@@ -44,13 +46,16 @@
 .container1 button{
     margin-right: 20px;
     align-self: center;
-    border-radius: 10px;
+    padding: 2px;
+    border-radius: 5px;
     background-color: #ffd500;
+    border: 2px solid #ffcc00;
 }
 
 .container1 button:hover{
     background-color: #ffcc00;
-    border-width: 3px;
+    padding: 3px;
+    transition: 0.1s;
 }
 
 .container2{

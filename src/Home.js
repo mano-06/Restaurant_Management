@@ -16,17 +16,17 @@ export default function Home(){
                 <div>
                     <article className="container2">
                             <section>
-                                <img src=".\images\Yellow fruit.png" alt="" height="200px" width="200px" />
+                                <img src="src\images\Yellow fruit.png" alt="img1" height="200px" width="200px" />
                                 <h2>Greek Salad</h2>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit inventore perferendis quas ex quidem quaerat, aliquid excepturi dolores quisquam est corporis consequuntur repellat corrupti ullam mollitia explicabo cum atque sint.</p>
                             </section>
                             <section>
-                                <img src=".\images\Yellow fruit.png" alt="" height="200px" width="200px"/>
+                                <img src="src\images\Yellow fruit.png" alt="img1" height="200px" width="200px"/>
                                 <h2>Bruchetta</h2>
                                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae soluta blanditiis cumque magnam, non et doloremque culpa mollitia, vitae ratione eaque ipsum dolore ex accusantium error recusandae minima deserunt aliquid!</p>
                             </section>
                             <section>
-                                <img src=".\images\Yellow fruit.png" alt="" height="200px" width="200px"/>
+                                <img src="src\images\Yellow fruit.png" alt="img1" height="200px" width="200px"/>
                                 <h2>Lemon Dessert</h2>
                                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae soluta blanditiis cumque magnam, non et doloremque culpa mollitia, vitae ratione eaque ipsum dolore ex accusantium error recusandae minima deserunt aliquid!</p>
                             </section>
@@ -34,8 +34,9 @@ export default function Home(){
                 </div>
             </main>
             <footer className="Footer">
+                <hr/>
                 <img src="./images/Yellow icon.png" alt=""/>
-                <p>Copyright Little Lemon</p>
+                <p>copyright &copy; Little Lemon</p>
             </footer>
         </>
 
