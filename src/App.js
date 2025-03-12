@@ -1,4 +1,4 @@
-
+import './styles/App.css';
 import Nav from './Nav';
 import Home from './Home.js';
 import Login from './Login.js';

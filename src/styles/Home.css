@@ -1,8 +1,7 @@
 /* Header */
 .Header{
     display: flex;
-    /* background-color: #495e57; */
-    background-image: url('./images/Briyani.jpg');
+    background-image: url('../images/Briyani.jpg');
     height: 300px;
     padding: 30px;
     .info{

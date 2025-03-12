@@ -1,13 +1,12 @@
 import { Outlet, Link } from "react-router-dom";
-import './Nav.css';
-import title from './images/Yellow_title.png';
+import './styles/Nav.css';
 import login from './images/Login.png';
 const Nav = () => {
   return (
     <>
       <nav className="Nav">
         <div className="logo">
-        <Link className="logo1" to="/"><img src={title} alt="Little Lemon"></img></Link>
+        <Link className="logo1" to="/"><img src='{title}' alt="Little Lemon"></img></Link>
         </div>
         <ul>
             <li>
