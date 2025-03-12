@@ -1,12 +1,21 @@
 import './Home.css';
+import Bruchetta from './images/Bruchetta.jpg';
+import LDessert from './images/Lemon Dessert.jpg';
+import briyani from './images/Briyani.jpg';
+
 export default function Home(){
     return(
         <>
             <header className="Header">
-                <h1>Little Lemon</h1>
-                <h2>Chicago</h2>
-                <p>We are a family owned<br></br>Mediterranean restaurant,<br></br>focused on traditional<br></br>recipes served  with a modern<br></br>twist.</p>
-                <button type="Submit">Reserve a Table</button>
+                <div className="info">
+                    <h1>Little Lemon</h1>
+                    <h2>Chicago</h2>
+                    <p>We are a family owned<br></br>Mediterranean restaurant,<br></br>focused on traditional<br></br>recipes served  with a modern<br></br>twist.</p>
+                    <button type="Submit">Reserve a Table</button>
+                </div>
+                <div className="image">
+                    <img src='{briyani}' alt="briyani"/>
+                </div>
             </header>
             <main className="container">
                 <div className="container1">
@@ -16,17 +25,17 @@ export default function Home(){
                 <div>
                     <article className="container2">
                             <section>
-                                <img src="src\images\Yellow fruit.png" alt="img1" height="200px" width="200px" />
+                                <center><img src={Bruchetta} alt="img1" height="200px" width="200px" /></center>
                                 <h2>Greek Salad</h2>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit inventore perferendis quas ex quidem quaerat, aliquid excepturi dolores quisquam est corporis consequuntur repellat corrupti ullam mollitia explicabo cum atque sint.</p>
                             </section>
                             <section>
-                                <img src="src\images\Yellow fruit.png" alt="img1" height="200px" width="200px"/>
+                                <center><img src={Bruchetta} alt="img1" height="200px" width="200px"/></center>
                                 <h2>Bruchetta</h2>
                                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae soluta blanditiis cumque magnam, non et doloremque culpa mollitia, vitae ratione eaque ipsum dolore ex accusantium error recusandae minima deserunt aliquid!</p>
                             </section>
                             <section>
-                                <img src="src\images\Yellow fruit.png" alt="img1" height="200px" width="200px"/>
+                                <center><img src={LDessert} alt="img1" height="200px" width="200px"/></center>
                                 <h2>Lemon Dessert</h2>
                                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae soluta blanditiis cumque magnam, non et doloremque culpa mollitia, vitae ratione eaque ipsum dolore ex accusantium error recusandae minima deserunt aliquid!</p>
                             </section>
@@ -35,7 +44,7 @@ export default function Home(){
             </main>
             <footer className="Footer">
                 <hr/>
-                <img src="./images/Yellow icon.png" alt=""/>
+                <img src="{image}" alt=""/>
                 <p>copyright &copy; Little Lemon</p>
             </footer>
         </>

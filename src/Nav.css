@@ -1,15 +1,14 @@
 .Nav{
     display: flex;
-    .logo{
-        padding: 16px;
-    }
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
 }
 .Nav ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #ffffff;
 }
 li {
     float: left;
@@ -18,8 +17,14 @@ li {
     display: block;
     color: #333333;
     text-align: center;
-    padding: 16px;
+    padding: 3.5vh;
     text-decoration: none;
+}
+.logo1 img{
+    width: 10vw;
+    text-align: center;
+    display: block;
+    padding: 2.2vh;
 }
 .link:hover {
     background-color: #edefee;
@@ -27,4 +32,10 @@ li {
 
 .Login{
     margin-left: auto;
+    img{
+        text-align: center;
+        display: block;
+        padding: 2vh;
+        width: 6vh;
+    }
 }

@@ -1,11 +1,13 @@
 import { Outlet, Link } from "react-router-dom";
 import './Nav.css';
+import title from './images/Yellow_title.png';
+import login from './images/Login.png';
 const Nav = () => {
   return (
     <>
       <nav className="Nav">
         <div className="logo">
-            <img src="src\images\Yellow_title.png" alt="Little Lemon"></img>
+        <Link className="logo1" to="/"><img src={title} alt="Little Lemon"></img></Link>
         </div>
         <ul>
             <li>
@@ -25,7 +27,7 @@ const Nav = () => {
             </li>
         </ul>
         <div className="Login">
-            <Link className="link" to="/Login"><img src="src\images\Login.png"/></Link>
+            <Link className="" to="/Login"><img src={login} alt="Little Lemon"></img></Link>
         </div>
       </nav>
 

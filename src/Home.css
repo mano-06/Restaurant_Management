@@ -1,8 +1,13 @@
 /* Header */
 .Header{
-    background-color: #495e57;
+    display: flex;
+    /* background-color: #495e57; */
+    background-image: url('./images/Briyani.jpg');
     height: 300px;
     padding: 30px;
+    .info{
+        flex: 1;
+    }
 }
 
 .Header h1{
@@ -31,7 +36,12 @@
 .Header button:hover{
     background-color: #ffcc00;
     padding: 3px;
-    transition: 0.1s;}
+    transition: 0.1s;
+}
+.Header .image img{
+    height: 35vh;
+    border-radius: 5px;
+}
 
 /* Main */
 .container1{

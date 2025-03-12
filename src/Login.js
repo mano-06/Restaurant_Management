@@ -1,18 +1,12 @@
-import './Login.css'
-
-
+import './Login.css';
 export default function Login(){
     return(
-        <form type="submit">
-            <label>
-                Username:
-                <input type="text" />
-            </label>
-            <br />
-            <label>
-                Password  :
-                <input type="password"/>
-            </label>
+        <form action="/">
+            <label for="user" id="user">Username</label>
+            <input type="text" />
+            <label for="pass" id="pass">Password</label>
+            <input type="password"/>
+            <button type="submit">Login</button>
         </form>
     );
 }
