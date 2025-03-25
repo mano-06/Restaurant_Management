@@ -1,35 +1,39 @@
 import { Outlet, Link } from "react-router-dom";
-import './styles/Nav.css';
+import style from './styles/Nav.module.css';
 import login from './images/Login.png';
+import logo from './images/saffron logo.png';
 const Nav = () => {
   return (
     <>
-      <nav className="Nav">
-        <div className="logo">
-        <Link className="logo1" to="/"><img src='{title}' alt="Little Lemon"></img></Link>
+      <nav className={style.Nav}>
+        <div className={style.logo}>
+          <Link className={style.logo1} to="/">
+            <img src={logo} alt="Little Lemon" className={style.logoImage}></img>
+          </Link>
         </div>
-        <ul>
-            <li>
-                <Link className="link" to="/">Home</Link>
-            </li>
-            <li>
-                <Link className="link" to="/About">About</Link>
-            </li>
-            <li>
-                <Link className="link" to="/Menu">Menu</Link>
-            </li>
-            <li>
-                <Link className="link" to="/Reservation">Reservation</Link>
-            </li>
-            <li>
-                <Link className="link" to="/Orderonline">Order Online</Link>
-            </li>
+        <ul className={style.navList}>
+          <li className={style.navItem}>
+            <Link className={style.link} to="/">Home</Link>
+          </li>
+          <li className={style.navItem}>
+            <Link className={style.link} to="/About">About</Link>
+          </li>
+          <li className={style.navItem}>
+            <Link className={style.link} to="/Menu">Menu</Link>
+          </li>
+          <li className={style.navItem}>
+            <Link className={style.link} to="/Reservation">Reservation</Link>
+          </li>
+          <li className={style.navItem}>
+            <Link className={style.link} to="/Orderonline">Order Online</Link>
+          </li>
         </ul>
-        <div className="Login">
-            <Link className="" to="/Login"><img src={login} alt="Little Lemon"></img></Link>
+        <div className={style.Login}>
+          <Link to="/Login">
+            <img src={login} alt="Login" className={style.loginIcon}></img>
+          </Link>
         </div>
       </nav>
-
       <Outlet />
     </>
   )

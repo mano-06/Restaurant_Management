@@ -26,7 +26,7 @@
 }
 
 .Header button{
-    padding: 2px;
+    padding: 3px;
     border-radius: 5px;
     border: 2px solid #ffcc00;
     background-color: #f4cb00;
@@ -34,7 +34,7 @@
 
 .Header button:hover{
     background-color: #ffcc00;
-    padding: 3px;
+    box-shadow: 0 4px 4px 0 rgba(114, 114, 111, 0.3);
     transition: 0.1s;
 }
 .Header .image img{
@@ -48,14 +48,15 @@
 }
 
 .container1 h1{
+    margin-left: 20px;
     font-size: 20pt extra bold;
     flex:1;
 }
 
 .container1 button{
-    margin-right: 20px;
-    align-self: center;
-    padding: 2px;
+    font-size: 16px;
+    margin: 30px 20px auto;
+    padding: 3px;
     border-radius: 5px;
     background-color: #ffd500;
     border: 2px solid #ffcc00;
@@ -63,24 +64,32 @@
 
 .container1 button:hover{
     background-color: #ffcc00;
-    padding: 3px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
     transition: 0.1s;
 }
 
 .container2{
     display: flex;
+    justify-content: space-evenly;
 }
 
 .container2 section{
+    width: 98%;
     border-radius: 5px;
     margin: 20px;
     padding: 10px;
-    background-color: #edefee;
+    background-color: rgba(237, 239, 238,0.5);
+    transition: 0.2s;
+    img{
+        width: 100%;
+        border-radius: 5px;
+    }
 }
 
 .container2 section:hover{
     background-color: #e6e6e6;
+    width: 100%;
+    transition: 0.2s;
 }
 
 /* Footer */
-
