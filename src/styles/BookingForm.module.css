@@ -1,4 +1,9 @@
 .reserve{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4f4;
   * {
     box-sizing: border-box;
   }
@@ -47,10 +52,14 @@
     transition: all 0.3s ease;
   }
 
-  input:focus, select:focus {
+  input:hover, select:hover {
     outline: none;
-    border-color: #4a6fa5;
-    box-shadow: 0 0 0 3px rgba(74, 111, 165, 0.2);
+    border-color: #ffd500;
+    box-shadow: 0 0 0 3px rgba(225, 207, 10, 0.2);
+  }
+  input:focus, select:focus{
+    outline: none;
+    border-color: #ffd500;
   }
 
   select {
@@ -88,7 +97,7 @@
     transform: translateY(-2px);
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
   }
-
+  /* Responsive Adjustments */
   @media (max-width: 600px) {
     form {
       padding: 20px;

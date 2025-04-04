@@ -1,43 +1,139 @@
-.Nav{
+.Nav {
     display: flex;
     position: sticky;
     top: 0;
+    z-index: 100;
     background-color: #ffffff;
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
-.Nav ul{
+.hamburgerMenu{
+    display: none;
+}
+.Nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
 }
-li {
-    float: left;
+
+.Nav li {
+    display: flex;
+    align-items: center;
 }
+
 .link {
     display: block;
     color: #333333;
     text-align: center;
-    padding: 3.5vh;
+    padding: 20px;
     text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-size: 1rem;
 }
-.logo1 img{
-    width: 10vw;
-    text-align: center;
-    display: block;
-    padding: 2.2vh;
-}
+
 .link:hover {
     background-color: #edefee;
 }
 
-.Login{
-    margin-left: auto;
+.logo1 {
+    display: flex;
+    align-items: center;
 }
 
-.Login img{
-    text-align: center;
-    display: block;
-    padding: 2vh;
-    width: 6vh;
+.logo1 img {
+    width: 120px;
+    height: auto;
+    padding: 10px;
+    object-fit: contain;
 }
+
+.Login {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.Login img {
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.Login img:hover {
+    background-color: #edefee;
+}
+
+@media screen and (max-width: 768px) {
+    .Nav {
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .Nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: white;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .Nav.open ul {
+        display: flex;
+    }
+
+    .Nav li {
+        width: 100%;
+    }
+
+    .link {
+        width: 100%;
+        padding: 15px;
+        text-align: left;
+        border-top: 1px solid #f0f0f0;
+    }
+
+    .logo1 {
+        flex-grow: 1;
+    }
+
+    .logo1 img {
+        width: 100px;
+    }
+
+    .Login {
+        margin-left: 0;
+        order: -1;
+    }
+
+    .hamburgerMenu {
+        display: block;
+        cursor: pointer;
+        margin-left: auto;
+    }
+    .hamburgerMenu img{
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .link {
+        padding: 15px;
+        font-size: 0.9rem;
+    }
+
+    .logo1 img {
+        width: 100px;
+    }
+}
+
