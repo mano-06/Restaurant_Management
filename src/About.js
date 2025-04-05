@@ -21,7 +21,7 @@ const About = () => {
           <div className={style.storyContent}>
             <h2 className={style.sectionTitle}>The Beginning</h2>
             <p className={style.paragraph}>
-              Founded in 2020 by Chef Dhoni, began as a small family-owned eatery in the heart of the city. What started as a passion project quickly became a culinary landmark known for its commitment to authentic flavors and innovative techniques.
+              Founded in 1980 by farmer Dhoni, began as a small family-owned eatery in the heart of the city. What started as a passion project quickly became a culinary landmark known for its commitment to authentic flavors and innovative techniques.
             </p>
             <p className={style.paragraph}>
               Our journey began with a simple mission: to create memorable dining experiences by combining time-honored recipes with contemporary presentation. Each dish tells a story of tradition, innovation, and the joy of sharing good food with loved ones.
@@ -72,7 +72,7 @@ const About = () => {
               </div>
               <h3 className={style.teamName}>Dhoni</h3>
               <p className={style.teamRole}>Head Chef & Founder</p>
-              <p className={style.teamBio}>With over 20 years of culinary experience, Chef Dhoni brings passion and expertise to every dish he creates.</p>
+              <p className={style.teamBio}>With over 35 years of culinary experience, Chef Dhoni brings passion and expertise to every dish he creates.</p>
             </div>
             <div className={style.teamMember}>
               <div className={style.teamImageContainer}>

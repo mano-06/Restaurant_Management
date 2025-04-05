@@ -1,5 +1,6 @@
 /* Header */
 .home{
+    min-height: 160vh;
     background-color: #f4f4f4;
 }
 .Header{

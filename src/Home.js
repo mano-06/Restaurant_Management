@@ -16,8 +16,8 @@ export default function Home(){
             </header>
             <main className={style.container}>
                 <div className={style.container1}>
-                    <h1>This week specials! <span style={{fontSize: "12px", fontWeight: "light"}}>(Not for delivery)</span></h1>
-                    <Link to="/Menu"><button type="submit">Menu</button></Link>
+                    <h1>This week specials! <span style={{fontSize: "12px", fontWeight: "normal"}}>(Not for delivery)</span></h1>
+                    <Link to="/Menu"><button type="submit">Order Online</button></Link>
                 </div>
                 <div>
                     <article className={style.container2}>
@@ -42,7 +42,6 @@ export default function Home(){
             <footer className={style.Footer}>
                 <hr/>
                 <p className={style.copyright}>copyright &copy; Saffron</p>
-                <img src="{image}" alt="" className={style.footerImage}/>
             </footer>
         </div>
     );

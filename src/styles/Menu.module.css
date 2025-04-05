@@ -1,7 +1,7 @@
 .Menu {
     background-color: #f4f4f4;
     padding-bottom: 50px;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .container {
